@@ -16,3 +16,7 @@ git clone https://github.com/frainzy1477/luci-app-clash $packages_path/luci-app-
 git clone https://github.com/vernesong/OpenClash $packages_path/luci-app-Openclash
 git clone https://github.com/rosywrt/luci-theme-rosy $packages_path/luci-theme-rosy
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  $packages_path/luci-theme-argon
+
+#ROOT PassWord
+	
+sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
